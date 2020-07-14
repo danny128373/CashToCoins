@@ -7,7 +7,6 @@ piggyBank = {
     "quarters": 0
 }
 
-# Your magic Python code here
 piggyBank["quarters"] = int(dollarAmount / 0.25)
 piggyBank["dimes"] = int((dollarAmount - piggyBank["quarters"] * .25) / .10)
 piggyBank["nickels"] = int(round((dollarAmount -
